@@ -44,4 +44,3 @@ func TestDukeScoresByDuchies(t *testing.T) {
 		t.Fatalf("expected duke to score 3, got %d", vp)
 	}
 }
-

@@ -314,4 +314,3 @@ func mostCommonCard(p *Player) string {
 	}
 	return bestID
 }
-

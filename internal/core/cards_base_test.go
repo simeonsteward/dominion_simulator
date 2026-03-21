@@ -63,4 +63,3 @@ func TestAdventurerFindsTwoTreasures(t *testing.T) {
 		t.Fatalf("expected adventurer to find copper+silver, got hand=%v", p.Hand)
 	}
 }
-

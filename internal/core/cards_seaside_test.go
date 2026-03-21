@@ -23,4 +23,3 @@ func TestSeaHagTopdecksCurse(t *testing.T) {
 		t.Fatalf("expected curse on top of opponent deck, got %v", o.Deck)
 	}
 }
-

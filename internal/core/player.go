@@ -18,25 +18,25 @@ type PlayerPriorities struct {
 }
 
 type Player struct {
-	Deck        []string
-	CardsInPlay []string
-	Discard     []string
-	Hand        map[string]int
-	Cards       map[string]int
-	Name        string
-	TurnNumber  int
-	Actions     int
-	Buys        int
-	Coins       int
-	VPTokens    int
-	MerchantBonus int
-	CostReduction int
-	NextTurnCards int
+	Deck            []string
+	CardsInPlay     []string
+	Discard         []string
+	Hand            map[string]int
+	Cards           map[string]int
+	Name            string
+	TurnNumber      int
+	Actions         int
+	Buys            int
+	Coins           int
+	VPTokens        int
+	MerchantBonus   int
+	CostReduction   int
+	NextTurnCards   int
 	NextTurnActions int
-	NextTurnBuys int
-	NextTurnCoins int
-	Priorities  *PlayerPriorities
-	Rng         *rand.Rand
+	NextTurnBuys    int
+	NextTurnCoins   int
+	Priorities      *PlayerPriorities
+	Rng             *rand.Rand
 }
 
 func NewPlayer(name string, p *PlayerPriorities, rng *rand.Rand) *Player {
